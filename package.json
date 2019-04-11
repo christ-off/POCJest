@@ -1,0 +1,27 @@
+{
+  "name": "pocjest",
+  "version": "1.0.0",
+  "description": "Proof of Concept for some jest features",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christ-off/POCJest.git"
+  },
+  "keywords": [
+    "nodejs",
+    "jest",
+    "test"
+  ],
+  "author": "Christ-off",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christ-off/POCJest/issues"
+  },
+  "homepage": "https://github.com/christ-off/POCJest#readme",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
