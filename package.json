@@ -2,7 +2,7 @@
   "name": "pocjest",
   "version": "1.0.0",
   "description": "Proof of Concept for some jest features",
-  "main": "index.js",
+  "main": "src/father.js",
   "scripts": {
     "test": "jest"
   },
