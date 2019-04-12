@@ -8,7 +8,7 @@ describe('Testing Son', () => {
         // When
         let say = tested.says();
         // Then
-        expect(say).toBe("Son says 42");
+        expect(say).toBe("-- Son : Nooo");
     });
 
 });

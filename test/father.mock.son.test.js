@@ -9,11 +9,11 @@ describe('Testing Father with Son', () => {
 
     test('should say', () => {
         // Given
-        son.says.mockImplementation( () => "Mocked");
+        son.says.mockImplementation( () => "XXXX");
         // When
-        let say = father.says();
+        let say = father.saysWithSon();
         // Then
-        expect(say).toBe("Mocked and I say 13");
+        expect(say).toBe("-- Father : I am your father XXXX");
     });
 
 });

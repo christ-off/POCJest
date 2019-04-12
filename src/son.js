@@ -1,5 +1,9 @@
 'use strict';
 
 exports.says = () => {
-    return "Son says 42";
+    return "-- Son : Nooo";
+};
+
+exports.reply = (callback) => {
+    callback("-- I say : Noo");
 };

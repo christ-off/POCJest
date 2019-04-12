@@ -2,6 +2,10 @@
 
 const son = require('./son');
 
-exports.says = () => {
-    return son.says() + " and I say 13";
+exports.saysWithSon = () => {
+    return "-- Father : I am your father " + son.says();
+};
+
+exports.saysToSon = ( callback ) => {
+    son.reply( (sonsaid) => callback("-- Father : I am your father " + sonsaid));
 };
