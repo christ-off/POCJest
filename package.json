@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/christ-off/POCJest#readme",
   "devDependencies": {
-    "jest": "^28.1.0"
+    "jest": "^28.1.1"
   }
 }
