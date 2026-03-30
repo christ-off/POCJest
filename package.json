@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/christ-off/POCJest#readme",
   "devDependencies": {
+    "baseline-browser-mapping": "^2.10.12",
     "jest": "^30.2.0"
   }
 }
